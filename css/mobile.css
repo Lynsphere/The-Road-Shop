@@ -13,10 +13,10 @@
   }
   #main_header h1 { 
     position: fixed;
-    left: 50%; top: 10px;
+    left: 50%; top: 12px;
     transform: translateX(-50%);
     z-index: 9;
-    background: #ccc;
+    /* background: #ccc; */
     width: 100%;
   }
   #main_gnb {

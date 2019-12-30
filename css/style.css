@@ -22,6 +22,8 @@ h1, h2, h3, h4 {
     font-family: 'Belleza', sans-serif;
     margin-bottom: 20px;
 }
+.title { font-family: 'Belleza', sans-serif; }
+h2 { font-size: 32px;}
 button {
     background: none;
     border: none;
@@ -58,7 +60,7 @@ ins {
     outline: 1px solid red;
 }
 #title .title > h2 {
-    font-size: 60px;
+    font-size: 32px;
     margin-bottom: 20px;
 }
 #event .title > h2 {
@@ -74,7 +76,7 @@ ins {
 .cta {
     width: 140px;
     height: 50px;
-    font-size: 12px;
+    font-size: 14px;
     line-height: 50px;
     display: inline-block;
     border: 2px solid #fff;
