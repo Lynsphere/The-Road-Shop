@@ -1,0 +1,101 @@
+/* pc.css */
+.container {
+    outline: 1px solid orange;
+    max-width: 1200px; /* 가변 최대 1200px */
+    margin: 0 auto;
+    /* background: blue; */
+}
+
+/* 헤더영역 */
+#main_header > .container{
+    position: relative;
+}
+#main_header > .container > h1 {
+    position: absolute;
+    left: 20px; top: 20px;
+}
+#main_header > .container  #main_gnb {
+    position: absolute;
+    right: 220px; top: 20px;
+}
+#main_header > .container  #main_gnb li {
+    display: inline-block;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+#main_header > .container  #util {
+    position: absolute;
+    right:0; top:20px;
+}
+#main_header > .container  #util li {
+    display: inline-block;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+#main_gnb, #util {
+    font-size: 15px;
+}
+
+/* gnb hover */
+#main_gnb a:hover, #util a:hover {
+    color: rgba(255,255,255,0.7);
+    transition-duration: 0.2s;
+}
+
+/* 토글 메뉴, 장바구니 아이콘 비표시 */
+#toggle, #util > ul > li  i {
+    display: none;
+}
+
+/* 신제품영역 */
+#new_product .product_list {
+    overflow: hidden;
+    outline: 1px solid red;
+}
+
+#new_product .product_list > li {
+    /* width: 386.66px; */
+    width: 32.33%;
+    float: left;
+    /* margin-right: 20px; */
+    margin-right: 1.5%;
+}
+#new_product .product_list > li img {
+    width: 100%;
+}
+#new_product .product_list > li:last-child {
+    margin-right: 0;
+}
+#new_product .product_list > li > a {
+    display: block;
+}
+#new_product .product_list .product_title {
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+#new_product .product_list .price {
+    font-weight: bold;
+    font-size: 1.1em;
+    color: #000;
+    margin-right: 1em;
+}
+#new_product .product_list .origin_price {
+    color: #999;
+}
+
+/* 뉴스 섹션 */
+#news .container {
+    overflow: hidden;
+    outline: 1px solid red;
+}
+#news article {
+    width: 49.25%;
+    float: left;
+    margin-right: 1.5%;
+    outline: 1px solid green;
+}
+#news article:last-child {
+    margin-right: 0;
+}
