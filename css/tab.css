@@ -23,8 +23,8 @@
 }
 #main_header > .container  #main_gnb li {
     display: inline-block;
-    margin-left: 1em;
-    margin-right: 1em;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
 }
 #main_header > .container  #util {
     position: absolute;
