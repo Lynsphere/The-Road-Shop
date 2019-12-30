@@ -56,6 +56,18 @@
     /* outline: 1px solid red; */
 }
 
+/* 브랜드소개 */
+#brand > .container {
+    width: 100%;
+}
+#brand > .container > article {
+    /* 소개글에 좌우 여백으로 집중 유도 */
+    padding-left: 5%;
+    padding-right: 5%;
+    /* outline: 1px solid red; */
+}
+
+/* 신제품소개 */
 #new_product .product_list > li {
     /* width: 386.66px; */
     width: 32.33%;
