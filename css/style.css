@@ -45,7 +45,6 @@ ins {
 }
 #title {
     height: 100%;
-    background-image: url("../imgs/main_bg.jpg");
     color: #fff;
     background-size: cover;
     background-position: center;
@@ -57,7 +56,7 @@ ins {
     width: 80%;
     left: 50%; top: 50%;
     transform: translate(-50%, -50%);
-    outline: 1px solid red;
+    /* outline: 1px solid red; */
 }
 #title .title > h2 {
     font-size: 32px;
@@ -77,13 +76,19 @@ ins {
     width: 140px;
     height: 50px;
     font-size: 14px;
-    line-height: 50px;
+    line-height: 46px;
     display: inline-block;
     border: 2px solid #fff;
     transition-duration: 0.3s;
 }
 .cta:hover {
-    background: rgba(0,0,0,0.3);
+    background: rgba(255,255,255,0.3);
+}
+/* 브랜드 소개 */
+#brand {
+    display: flex;
+    height: 400px;
+    align-items: center;
 }
 
 /* 이벤트 섹션 */
@@ -91,7 +96,7 @@ ins {
     position: relative;
     height: 650px;
     background: #ccc;
-    background-image: url('https://placeimg.com/1920/1080/people/grayscale');
+    background-image: url('../imgs/action-bicycling-bike-biking-287398.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -101,7 +106,7 @@ ins {
     position: absolute;
     left:50%; top:50%;
     transform:translate(-50%, -50%);
-    outline: 1px solid red;
+    /* outline: 1px solid red; */
     color: #fff;
     text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
 }
@@ -111,17 +116,21 @@ ins {
     height: 300px;
     margin-bottom: 20px;
     color: #fff;
+    cursor: pointer;
     display: flex; /* flex 레이아웃 설정 */
     align-items: center; /* 수직 중앙정렬 */
     justify-content: center; /* 수평 중앙정렬 */
 }
+#news article:hover {
+    border:1px solid #fff;
+}
 #news article:first-child {
-    background-image: url('http://placeimg.com/600/300/10');
+    background-image: url('../imgs/event_bg01.jpg');
     background-size: cover;
     background-position: center;
 }
 #news article:last-child {
-    background-image: url('http://placeimg.com/600/300/20');
+    background-image: url('../imgs/event_bg02.jpg');
     background-size: cover;
     background-position: center;
 }
@@ -134,4 +143,71 @@ ins {
     /* bx slider 테두리 제거 */
     border: none !important;
     box-shadow: none !important;
+}
+
+/* 푸터영역 */
+#main_footer {
+    background: #333;
+}
+#footer_menu > .list > h5 {
+    font-size: 1.2em;
+    margin-bottom: 8px;
+}
+#footer_menu > .list > a {
+    font-size: 0.9em;
+}
+#footer_menu .list{
+    color: #fff;
+    margin-top: 30px;
+}
+#footer_menu .cash {
+    font-size: 1.2em;
+    color: #999;
+}
+#footer_menu .list:last-child p:nth-child(3){
+    /* outline: 1px solid red; */
+    margin-bottom: 1em;
+}
+#sns_button > a > img{
+    /* outline: 1px solid red; */
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#find_shop {
+    border: 2px solid #fff;
+    transition-duration: 0.3s;
+}
+#find_shop:hover {
+    background: rgba(255,255,255,0.3);
+}
+#find_shop > a {
+    color: #fff;
+}
+#footer_info {
+    text-align: center;
+    font-size: 12px
+}
+address {
+    font-style: normal;
+}
+#footer_info {
+    width: 100%;
+    border-top: 1px solid #666;
+    margin-top: 30px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+#footer_info li a,
+#footer_info li p,
+#footer_info li address{
+    display: inline-block;
+    /* outline: 1px solid red; */
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#footer_info li:first-child {
+    font-size: 14px;
+}
+#footer_info li:first-child > a:last-child {
+    color: #999;
 }

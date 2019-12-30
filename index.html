@@ -13,8 +13,10 @@
     <link rel="stylesheet" href="./css/style.css">
     <!-- mobile css -->
     <link rel="stylesheet" href="./css/mobile.css" media="screen and (max-width:767px)">
+    <!-- tab css -->
+    <link rel="stylesheet" href="./css/tab.css" media="(min-width:768px) and (max-width:1023px)">
     <!-- pc css -->
-    <link rel="stylesheet" href="./css/pc.css" media="screen and (min-width:768px)">
+    <link rel="stylesheet" href="./css/pc.css" media="screen and (min-width:1024px)">
     <!-- 제이쿼리 -->
     <script src="./js/jquery-3.4.1.min.js"></script>
     <!-- 이미지로더 -->
@@ -29,13 +31,13 @@
 <body>
     <header id="main_header">
         <div class="container">
-            <h1>Modern shop</h1>
+            <h1>The Road Shop</h1>
             <div class="nav_group">
                 <nav id="main_gnb">
                     <ul>
                         <li><a href="#">About</a></li>
-                        <li><a href="#">Man</a></li>
-                        <li><a href="#">Woman</a></li>
+                        <li><a href="#">Road Bikes</a></li>
+                        <li><a href="#">Equipment</a></li>
                         <li><a href="#">Shop</a></li>
                     </ul>
                 </nav>
@@ -64,11 +66,13 @@
         </div><!-- end container -->
     </section>
 
-    <!-- 브랜드소개 -->
+    <!-- 매장소개 -->
     <section id="brand">
         <div class="container">
-            <h2>Modern shop</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas voluptate voluptatem, maxime architecto commodi perspiciatis ea repellat. Eum hic quisquam obcaecati deleniti quas nulla sed cumque fuga, assumenda nihil in.</p>
+            <article>
+                <h2>The Road Shop</h2>
+                <p>전 세계 유명한 로드바이크 들을 한 곳에 모았습니다. 매장에 방문하시면 시승도 가능 하오니 최고의 퍼포먼스를 느껴 보시기 바랍니다.</p>
+            </article>
         </div>
     </section>
 
@@ -79,26 +83,26 @@
             <ul class="product_list">
                 <li>
                     <a href="#">
-                        <img src="http://placeimg.com/386/500/a" alt="제품1">
-                        <span class="product_title">상품명1</span>
-                        <ins class="price">24,500원</ins>
-                        <del class="origin_price">30,000원</del>
+                        <img src="./imgs/Tarmac.jpg" alt="상품이미지">
+                        <span class="product_title">S-Works Tarmac Disc – Sagan Collection Overexposed LTD</span>
+                        <ins class="price">12,900,000원</ins>
+                        <del class="origin_price">12,900,000원</del>
                     </a>
                 </li>
                 <li>
                     <a href="#">
-                        <img src="http://placeimg.com/386/500/b" alt="제품2">
-                        <span class="product_title">상품명2</span>
-                        <ins class="price">24,500원</ins>
-                        <del class="origin_price">30,000원</del>
+                        <img src="./imgs/Roubaix.jpg" alt="상품이미지">
+                        <span class="product_title">S-Works Roubaix - Shimano Dura-Ace Di2</span>
+                        <ins class="price">11,500,000원</ins>
+                        <del class="origin_price">11,500,000원</del>
                     </a>
                 </li>
                 <li>
                     <a href="#">
-                        <img src="http://placeimg.com/386/500/c" alt="제품3">
-                        <span class="product_title">상품명3</span>
-                        <ins class="price">24,500원</ins>
-                        <del class="origin_price">30,000원</del>
+                        <img src="./imgs/venge.jpg" alt="상품이미지">
+                        <span class="product_title">S-Works Venge</span>
+                        <ins class="price">13,500,000원</ins>
+                        <del class="origin_price">11,475,000원</del>
                     </a>
                 </li>
             </ul>
@@ -109,7 +113,7 @@
     <section id="event">
         <div class="title">
             <h2>Event</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis inventore totam excepturi consequuntur modi minus dignissimos delectus illum illo, voluptas assumenda sapiente aliquam soluta beatae architecto ad ipsum amet qui!</p>
+            <p>연말을 맞이하여 이월 상품 세일과 신상품 출시 기념 사승 이벤트등 다체로운 이벤트들이 준비되어 있습니다.</p>
             <a href="#" class="cta">더보기</a>
         </div>
     </section>
@@ -118,25 +122,102 @@
     <section id="news">
         <div class="container">
             <article>
-                <h2>News1</h2>
+                <h2>이월 상품 세일</h2>
             </article>
             <article>
-                <h2>News2</h2>
+                <h2>New Brand Launching</h2>
             </article>
         </div><!-- end container -->
     </section>
 
     <!-- 인스타그램 -->
     <section id="sns">
+        <h2>SNS</h2>
         <div class="slider">
-            <img src="http://placeimg.com/300/300/31" alt="1">
-            <img src="http://placeimg.com/300/300/a2" alt="2">
-            <img src="http://placeimg.com/300/300/33" alt="3">
-            <img src="http://placeimg.com/300/300/34" alt="4">
-            <img src="http://placeimg.com/300/300/55" alt="5">
-            <img src="http://placeimg.com/300/300/36" alt="6">
-            <img src="http://placeimg.com/300/300/37" alt="7">
+            <img src="./imgs/in01.jpg" alt="1">
+            <img src="./imgs/in02.jpg" alt="2">
+            <img src="./imgs/in03.jpg" alt="3">
+            <img src="./imgs/in04.jpg" alt="4">
+            <img src="./imgs/in05.jpg" alt="5">
+            <img src="./imgs/in06.jpg" alt="6">
+            <img src="./imgs/in07.jpg" alt="7">
         </div>
     </section>
+
+    <!-- 푸터영역 -->
+    <footer id="main_footer">
+        <div class="container">
+            <div id="footer_menu">
+                <div class="list">
+                    <h5>SUPPORT</h5>
+                    <a href="#">온라인쇼핑문의</a>
+                    <span>|</span>
+                    <a href="#">워런티정책</a>
+                    <span>|</span>
+                    <a href="#">자전거등록</a>
+                </div>
+                <div class="list">
+                    <h5>BRAND</h5>
+                    <a href="#">Specialized</a>
+                    <span>|</span>
+                    <a href="#">Trek</a>
+                    <span>|</span>
+                    <a href="#">Giant</a>
+                    <span>|</span>
+                    <a href="#">GoPro</a>
+                </div>
+                <div class="list">
+                    <h5>ABOUT</h5>
+                    <a href="#">사이트맵</a>
+                    <span>|</span>
+                    <a href="#">공지사항</a>
+                    <span>|</span>
+                    <a href="#">안전공지사항</a>
+                </div>
+                <div class="list">
+                    <h5>입금계좌안내</h5>
+                    <p class="cash">국민은행 : 고길동</p>
+                    <p class="cash">111111-11-111111</p>
+                    <h5>고객지원</h5>
+                    <p class="cash">1234-1234</p>
+                </div>
+            </div>
+            <nav>
+                <div id="find_shop">
+                    <a href="#">매장찾기</a>
+                </div>
+                <div id="sns_button">
+                    <a href="#"><img src="./imgs/FA.png" alt="페이스북"></a>
+                    <a href="#"><img src="./imgs/TW.png" alt="트위터"></a>
+                    <a href="#"><img src="./imgs/IN.png" alt="인스타그램"></a>  
+                </div>
+            </nav>
+            <div id="footer_info">
+                <ul>
+                    <li>
+                        <a href="#">이용약관</a>
+                        <a href="#"><strong>개인정보취급방침</strong></a>
+                    </li>
+                    <li>
+                        <p>The Road Shop</p>
+                        <p>대표 고길동</p>
+                        <address>부천시 오정구 고강동 123-123</address>
+                    </li>
+                    <li>
+                        <p>사업자등록번호: 111-11-11111</p>
+                        <p>통신판매업신고: 제1234-경기부천-00000호</p>
+                    </li>
+                    <li>
+                        <p>개인정보관리책임자: 고길동</p>
+                        <p>이메일: theroad@theroadshop.com</p>
+                        <p>고객센터: 1234-1234</p>
+                    </li>
+                    <li>
+                        <p><p>&copy; The Road Shop CORPORATION.ALL RIGHTS RESERVED.</p></p>
+                    </li>
+                </ul>
+            </div>
+        </div><!-- end container -->
+    </footer>
 </body>
 </html>
